@@ -12,7 +12,7 @@ TextBox::TextBox(int length, int breadth)              //parameterized construct
     this->breadth = breadth;
 }
 
-/*void TextBox::setLengthTB(int length)
+void TextBox::setLengthTB(int length)
 {
     this->length = length;
 }
@@ -20,7 +20,7 @@ TextBox::TextBox(int length, int breadth)              //parameterized construct
 void TextBox::setBreadthTB(int breadth)
 {
      this->breadth = breadth;
-}*/
+}
 
 void TextBox::addTextBox(int length, int breadth)        //function for adding textbox
 {
