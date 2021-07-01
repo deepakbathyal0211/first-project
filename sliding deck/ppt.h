@@ -14,8 +14,8 @@ class TextBox                        //textbox class having length and breadth o
 public:
     TextBox();
     TextBox(int, int);
-    // void setLengthTB(int);
-    // void setBreadthTB(int);
+    void setLengthTB(int);
+    void setBreadthTB(int);
     void addTextBox(int, int);
     int getLengthTB();
     int getBreadthTB();
@@ -30,9 +30,9 @@ class Shape                              //shape class having length breadth & t
 public:
     Shape();
     Shape(string, int, int);
-    // void setLengthS(int);
-    // void setBreadthS(int);
-    // void setNameS(string);
+    void setLengthS(int);
+    void setBreadthS(int);
+    void setNameS(string);
     void addShape(string, int, int);
     int getLengthS();
     int getBreadthS();
