@@ -12,15 +12,15 @@ TextBox::TextBox(int length, int breadth)              //parameterized construct
     this->breadth = breadth;
 }
 
-void TextBox::setLengthTB(int length)
-{
-    this->length = length;
-}
+// void TextBox::setLengthTB(int length)
+// {
+//     this->length = length;
+// }
 
-void TextBox::setBreadthTB(int breadth)
-{
-     this->breadth = breadth;
-}
+// void TextBox::setBreadthTB(int breadth)
+// {
+//      this->breadth = breadth;
+// }
 
 void TextBox::addTextBox(int length, int breadth)        //function for adding textbox
 {
@@ -52,20 +52,20 @@ Shape::Shape(string type, int length, int breadth)     //parameterized construct
     this->breadth = breadth;
 }
 
-void Shape::setLengthS(int length)
-{
-    this->length = length;
-}
+// void Shape::setLengthS(int length)
+// {
+//     this->length = length;
+// }
 
-void Shape::setBreadthS(int breadth)
-{
-    this->breadth = breadth;
-}
+// void Shape::setBreadthS(int breadth)
+// {
+//     this->breadth = breadth;
+// }
 
-void Shape::setNameS(string type)
-{
-    this->type = type;
-}
+// void Shape::setNameS(string type)
+// {
+//     this->type = type;
+// }
 
 void Shape::addShape(string type, int length, int breadth)         //function for adding any type of shape
 {
